@@ -24,7 +24,7 @@ body{
     color: teal;
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color: goldenrod;
+    background-color: teal;
 }
 .nav-link:hover{
     background-color: teal;
