@@ -1,0 +1,76 @@
+/* Body */
+body{
+    background-color: lightgrey ;
+}
+
+/* Navigation Bar */
+.navbar{ 
+    max-height: 50px;
+    background-color: lightgrey;
+    font-size: 20px;
+}
+.navigation .navbar-brand{
+    color: white;
+    margin-left: 20px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color: white;
+}
+.dropdown-item{
+    color: teal;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: goldenrod;
+}
+.nav-link:hover{
+    background-color: teal;
+}
+.navbar-brand:hover{
+    color: teal;
+}
+a{
+    color: teal;
+    font-size: 20px;
+}
+
+/* Images */
+img{
+    width:100%;
+    height:100%;
+}
+.active, .panel:hover{
+    border-color: midnightblue;
+    border-style: solid;
+}
+.visualization{
+    width:50%;
+    height:50%;
+}
+
+/* Title */
+.title{
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+/* Paragraph */
+p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+/* Box */
+.box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 30px 10px;
+    color: black;
+    background-color: white;
+}
